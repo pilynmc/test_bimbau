@@ -19,7 +19,7 @@ _Abrir el proyecto en Cypress
 
 ## Ejecutando las pruebas ⚙️
 
-_Ejecutar el archivo registerPage.spec.js para correr las pruebas automatizadas
+_Ejecutar el archivo registerPage.spec.js dentro de la carpeta integration\getting-started para correr las pruebas automatizadas
 
 
 ## Construido con 🛠️
