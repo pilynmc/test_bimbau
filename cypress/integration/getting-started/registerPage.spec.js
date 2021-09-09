@@ -10,12 +10,12 @@ describe('Prueba de Registro Bimbau', () => {
     });
 
     it("Debería ir al formulario de registro", () => {
-       homeBimbauPage.clickGetIt()
        homeBimbauPage.clickRegister()       
     });
 
     it("Debería asegurar que se ingrese al formulario de registro ", () => {
-    registerPage.elements.exitsSignUp().should('be.visible');
+      homeBimbauPage.clickGetIt()
+      registerPage.elements.exitsSignUp().should('be.visible');
     });
 
     it("Debería llenar el formulario", () => {
